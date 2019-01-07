@@ -11,7 +11,7 @@ namespace Energy
 {
     public class Energy
     {
-        public static string ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=energy.mdb"; // строка подключения
+        public static string ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source="+Properties.Settings.Default.+"energy.mdb"; // строка подключения
 
         public static DataTable dt = new DataTable(); // основа для загрузки
 
